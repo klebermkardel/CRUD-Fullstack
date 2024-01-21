@@ -1,5 +1,6 @@
 import GlobalStyle from "./styles/global";
 import styled from "styled-components"
+import Form from "./components/Form"
 import { ToastContainer } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
 
