@@ -13,11 +13,13 @@ const Container = styled.div`
   gap: 10px;
 `
 
+const Title = styled.h2``
 
 function App() {
   return (
     <>
       <Container>
+        <Title>USUÁRIOS</Title>
       </Container>
       <ToastContainer autoClose={3000} position="bottom-left" />
       <GlobalStyle />
