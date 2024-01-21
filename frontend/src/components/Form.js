@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useRef } from "react"
 import styled from "styled-components"
 
 const FormContainer = styled.form`
@@ -12,9 +12,11 @@ const FormContainer = styled.form`
     border-radius: 5px;
 `
 
-const Form = () => {
+const Form = ({ onEdit }) => {
+    const ref = useRef()
+
     return (
-        <FormContainer>
+        <FormContainer ref={ref}>
         </FormContainer>
     )
 }
