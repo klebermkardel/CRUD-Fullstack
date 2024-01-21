@@ -19,7 +19,7 @@ function App() {
     <>
       <Container>
       </Container>
-      <ToastContainer autoClose={3000} position={toast.POSTION.BOTTOM_LEFT} />
+      <ToastContainer autoClose={3000} position={toast.POSITION.BOTTOM_LEFT} />
       <GlobalStyle />
     </>
   );
