@@ -1,6 +1,6 @@
 import GlobalStyle from "./styles/global";
 import styled from "styled-components"
-import { toast, ToastContainer } from "react-toastify"
+import { ToastContainer } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
 
 const Container = styled.div`
@@ -19,7 +19,7 @@ function App() {
     <>
       <Container>
       </Container>
-      <ToastContainer autoClose={3000} position={toast.POSITION.BOTTOM_LEFT} />
+      <ToastContainer autoClose={3000} position="bottom-left" />
       <GlobalStyle />
     </>
   );
