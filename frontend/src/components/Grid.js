@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import { FaTrash, FaEdit } from "react-icons/fa";
+import { toast } from "react-toastify";
 
 const Table = styled.table`
     width: 100%;
@@ -15,7 +17,7 @@ const Table = styled.table`
 const Grid = () => {
     return (
         <Table>
-            
+
         </Table>
     );
 };
