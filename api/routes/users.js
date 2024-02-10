@@ -11,5 +11,11 @@ const router = express.Router();
 // Quando uma requisição GET é feita para a raiz, a função getUsers será chamada
 router.get("/", getUsers);
 
+router.post("/", addUser);
+
+router.put("/:id", updateUser);
+
+router.delete("/:id", deleteUser);
+
 // Exporta o objeto router para que possa ser utilizado em outros lugares do código
 export default router;
