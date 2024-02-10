@@ -9,7 +9,7 @@ const Container = styled.div`
   max-width: 800px;
   margin-top: 20px;
   display: flex;
-  flex-direction column;
+  flex-direction: column;
   align-items: center;
   gap: 10px;
 `
