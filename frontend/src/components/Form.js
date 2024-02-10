@@ -17,12 +17,24 @@ const InputArea = styled.div`
     flex-direction: column;
 `;
 
+const Input = styled.input`
+    width: 120px;
+    height: 40px;
+    padding: 0 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+`;
+
+const Label = styled.label``;
+
 const Form = ({ onEdit }) => {
     const ref = useRef()
 
     return (
         <FormContainer ref={ref}>
             <InputArea>
+                <Label>Nome</Label>
+                <Input name="nome" />
             </InputArea>
         </FormContainer>
     )
