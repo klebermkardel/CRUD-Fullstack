@@ -36,6 +36,18 @@ const Form = ({ onEdit }) => {
                 <Label>Nome</Label>
                 <Input name="nome" />
             </InputArea>
+            <InputArea>
+                <Label>E-mail</Label>
+                <Input name="email" type="email" />
+            </InputArea>
+            <InputArea>
+                <Label>Telefone</Label>
+                <Input name="fone" />
+            </InputArea>
+            <InputArea>
+                <Label>Data de Nascimento</Label>
+                <Input name="data_nasc" type="date" />
+            </InputArea>
         </FormContainer>
     )
 }
