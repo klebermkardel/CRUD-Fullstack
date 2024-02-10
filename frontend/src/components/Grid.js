@@ -15,10 +15,32 @@ const Table = styled.table`
     word-break: breal-all;
 `;
 
+export const Thead = styled.thead``;
+
+export const Tr = styled.tr``;
+
+export const Th = styled.th`
+    text-align: start;
+    border-bottom: inset;
+    padding-bottom: 5px;
+
+    @media (max-width: 500px) {
+        ${(props) => props.onlyweb && "display: none"}
+    }
+`;
+
 const Grid = () => {
     return (
         <Table>
-
+            <Thead>
+                <Tr>
+                    <Th>Nome</Th>
+                    <Th>E-mail</Th>
+                    <Th onlyweb>Fone</Th>
+                    <Th></Th>
+                    <Th></Th>
+                </Tr>
+            </Thead>
         </Table>
     );
 };
