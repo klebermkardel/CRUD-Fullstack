@@ -2,7 +2,7 @@
 import express from "express";
 
 // Importa a função 'getUsers' do arquivo 'user.js' no diretório 'controllers'
-import { getUsers } from "../controllers/user.js";
+import { getUsers, addUser, updateUser, deleteUser } from "../controllers/user.js";
 
 // Cria um objeto router utilizando o método express.Router()
 const router = express.Router();
